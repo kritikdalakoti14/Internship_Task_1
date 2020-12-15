@@ -1,4 +1,4 @@
 const mongoose=require('mongoose')
 
-mongoose.connect('mongodb+srv://aadesh246:aadesh123@cluster0.1lhwg.mongodb.net/Internship_Task?retryWrites=true&w=majority',
+mongoose.connect('***********',  // your mongodb url     process.env.MongodbUrl
 {useCreateIndex:true ,useNewUrlParser:true,useUnifiedTopology: true })
